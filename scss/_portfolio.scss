@@ -31,6 +31,10 @@
         color: white;
       }
     }
+    .blog-caption {
+      color: #343a40;
+    }
+
   }
   @media(min-width: 992px) {
     max-width: none;
@@ -77,6 +81,12 @@
       }
       .blogging-caption {
         background-color: fade-out(rgb(78, 78, 78), 0.1);
+        .blog-caption {
+          color: fade-out(white,  0.1);
+        }
+      }
+      .caption-sale-app {
+        background-color: fade-out(rgb(237, 204, 111), 0.1);
         color: white;
       }
     }

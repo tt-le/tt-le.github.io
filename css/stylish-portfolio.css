@@ -277,6 +277,10 @@ h6 {
   color: white;
 }
 
+.portfolio-item .caption .blog-caption {
+  color: #343a40;
+}
+
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
@@ -334,6 +338,12 @@ h6 {
   }
   .portfolio-item:hover .blogging-caption {
     background-color: rgba(78, 78, 78, 0.9);
+  }
+  .portfolio-item:hover .blogging-caption .blog-caption {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .portfolio-item:hover .caption-sale-app {
+    background-color: rgba(237, 204, 111, 0.9);
     color: white;
   }
 }
